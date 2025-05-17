@@ -1,0 +1,772 @@
+{
+  "unit": "cm",
+  "layers": {
+    "layer-1": {
+      "id": "layer-1",
+      "altitude": 0,
+      "order": 0,
+      "opacity": 1,
+      "name": "default",
+      "visible": true,
+      "vertices": {},
+      "lines": {},
+      "holes": {},
+      "areas": {},
+      "items": {
+        "kJ94we1z2": {
+          "id": "kJ94we1z2",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 970.4014046068122,
+          "y": 1695.1442734439916,
+          "rotation": 0
+        },
+        "i3XcBzYUK": {
+          "id": "i3XcBzYUK",
+          "type": "table",
+          "prototype": "items",
+          "name": "Table",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "width": {
+              "length": 90,
+              "unit": "cm"
+            },
+            "depth": {
+              "length": 50,
+              "unit": "cm"
+            },
+            "height": {
+              "length": 80,
+              "unit": "cm"
+            },
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 548,
+          "y": 1571,
+          "rotation": 0
+        },
+        "_-vYai-c1": {
+          "id": "_-vYai-c1",
+          "type": "table",
+          "prototype": "items",
+          "name": "Table",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "width": {
+              "length": 90,
+              "unit": "cm"
+            },
+            "depth": {
+              "length": 50,
+              "unit": "cm"
+            },
+            "height": {
+              "length": 80,
+              "unit": "cm"
+            },
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 982.4245114480999,
+          "y": 1631.5935658543262,
+          "rotation": 0
+        },
+        "p3aQS4NoX": {
+          "id": "p3aQS4NoX",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 1066.5862593371166,
+          "y": 1624.723219087876,
+          "rotation": 0
+        },
+        "tIJhkOj5G": {
+          "id": "tIJhkOj5G",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 237,
+          "y": 1617,
+          "rotation": 0
+        },
+        "l0CqOWL-A": {
+          "id": "l0CqOWL-A",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 571,
+          "y": 1640,
+          "rotation": 0
+        },
+        "TxzRnwxSF": {
+          "id": "TxzRnwxSF",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 305.78500465620164,
+          "y": 1840.8476387778076,
+          "rotation": 15
+        },
+        "LY2KCi7yu": {
+          "id": "LY2KCi7yu",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 204.26490190753668,
+          "y": 1949.2665888644992,
+          "rotation": 15
+        },
+        "bqY8tqvwu": {
+          "id": "bqY8tqvwu",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 574,
+          "y": 1510,
+          "rotation": 0
+        },
+        "UOEIxDviF": {
+          "id": "UOEIxDviF",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 109.5633612112788,
+          "y": 1796.5524173225135,
+          "rotation": 15
+        },
+        "rF_aZ1wsT": {
+          "id": "rF_aZ1wsT",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 173,
+          "y": 1685,
+          "rotation": 0
+        },
+        "qvAFPkHYC": {
+          "id": "qvAFPkHYC",
+          "type": "table",
+          "prototype": "items",
+          "name": "Table",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "width": {
+              "length": 90,
+              "unit": "cm"
+            },
+            "depth": {
+              "length": 50,
+              "unit": "cm"
+            },
+            "height": {
+              "length": 80,
+              "unit": "cm"
+            },
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 102.98636998683168,
+          "y": 1855.8714124794913,
+          "rotation": 15
+        },
+        "luBmZaMU1": {
+          "id": "luBmZaMU1",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 434,
+          "y": 1639,
+          "rotation": 0
+        },
+        "M5sWwTAwN": {
+          "id": "M5sWwTAwN",
+          "type": "table",
+          "prototype": "items",
+          "name": "Table",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "width": {
+              "length": 90,
+              "unit": "cm"
+            },
+            "depth": {
+              "length": 50,
+              "unit": "cm"
+            },
+            "height": {
+              "length": 80,
+              "unit": "cm"
+            },
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 201.76962331341915,
+          "y": 1881.3050292536593,
+          "rotation": 15
+        },
+        "-VOwJJ4a-": {
+          "id": "-VOwJJ4a-",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 499,
+          "y": 1874,
+          "rotation": 0
+        },
+        "VyVlarYL1": {
+          "id": "VyVlarYL1",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 168,
+          "y": 1555,
+          "rotation": 0
+        },
+        "PfwNO-rWF": {
+          "id": "PfwNO-rWF",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 21.96871891541042,
+          "y": 1841.4097315651081,
+          "rotation": 15
+        },
+        "rhDOA_6KJ": {
+          "id": "rhDOA_6KJ",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 507,
+          "y": 1509,
+          "rotation": 0
+        },
+        "iEP7cdbOG": {
+          "id": "iEP7cdbOG",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 236.35846350024923,
+          "y": 1829.4917864046547,
+          "rotation": 15
+        },
+        "io9BXV8Bp": {
+          "id": "io9BXV8Bp",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 172.6073589651707,
+          "y": 1812.4097294278884,
+          "rotation": 15
+        },
+        "VqnEuCoiS": {
+          "id": "VqnEuCoiS",
+          "type": "table",
+          "prototype": "items",
+          "name": "Table",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "width": {
+              "length": 90,
+              "unit": "cm"
+            },
+            "depth": {
+              "length": 50,
+              "unit": "cm"
+            },
+            "height": {
+              "length": 80,
+              "unit": "cm"
+            },
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 447,
+          "y": 1572,
+          "rotation": 0
+        },
+        "769vSaGv2": {
+          "id": "769vSaGv2",
+          "type": "table",
+          "prototype": "items",
+          "name": "Table",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "width": {
+              "length": 90,
+              "unit": "cm"
+            },
+            "depth": {
+              "length": 50,
+              "unit": "cm"
+            },
+            "height": {
+              "length": 80,
+              "unit": "cm"
+            },
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 509,
+          "y": 1809,
+          "rotation": 0
+        },
+        "CPByAXSac": {
+          "id": "CPByAXSac",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 130.14743232838094,
+          "y": 1928.371596565316,
+          "rotation": 15
+        },
+        "5EV7jXrHo": {
+          "id": "5EV7jXrHo",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 287.99584089824873,
+          "y": 1903.3739984414947,
+          "rotation": 15
+        },
+        "01dioxi--": {
+          "id": "01dioxi--",
+          "type": "table",
+          "prototype": "items",
+          "name": "Table",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "width": {
+              "length": 90,
+              "unit": "cm"
+            },
+            "depth": {
+              "length": 50,
+              "unit": "cm"
+            },
+            "height": {
+              "length": 80,
+              "unit": "cm"
+            },
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 151,
+          "y": 1618,
+          "rotation": 0
+        },
+        "jqrEoHPGd": {
+          "id": "jqrEoHPGd",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 504,
+          "y": 1641,
+          "rotation": 0
+        },
+        "V7ra4PwBR": {
+          "id": "V7ra4PwBR",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 434,
+          "y": 1508,
+          "rotation": 0
+        },
+        "MiNAovOQT": {
+          "id": "MiNAovOQT",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 1037.3872855797026,
+          "y": 1696.8618601356043,
+          "rotation": 0
+        },
+        "lv-DVcrw0": {
+          "id": "lv-DVcrw0",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 69.55292431727217,
+          "y": 1911.100070897568,
+          "rotation": 15
+        },
+        "HUiHtStXN": {
+          "id": "HUiHtStXN",
+          "type": "sedia",
+          "prototype": "items",
+          "name": "Chair",
+          "misc": {},
+          "selected": false,
+          "properties": {
+            "altitude": {
+              "length": 0,
+              "unit": "cm"
+            }
+          },
+          "visible": true,
+          "x": 505,
+          "y": 1743,
+          "rotation": 0
+        }
+      },
+      "selected": {
+        "vertices": [],
+        "lines": [],
+        "holes": [],
+        "areas": [],
+        "items": []
+      }
+    }
+  },
+  "grids": {
+    "h1": {
+      "id": "h1",
+      "type": "horizontal-streak",
+      "properties": {
+        "step": 20,
+        "colors": ["#808080", "#ddd", "#ddd", "#ddd", "#ddd"]
+      }
+    },
+    "v1": {
+      "id": "v1",
+      "type": "vertical-streak",
+      "properties": {
+        "step": 20,
+        "colors": ["#808080", "#ddd", "#ddd", "#ddd", "#ddd"]
+      }
+    }
+  },
+  "selectedLayer": "layer-1",
+  "groups": {
+    "pa-THJ469": {
+      "id": "pa-THJ469",
+      "type": "",
+      "prototype": "groups",
+      "name": "Table 1",
+      "misc": {},
+      "selected": false,
+      "properties": {},
+      "visible": true,
+      "x": 167.54545454545453,
+      "y": 1868.1818181818182,
+      "rotation": 15,
+      "elements": {
+        "layer-1": {
+          "items": [
+            "LY2KCi7yu",
+            "UOEIxDviF",
+            "qvAFPkHYC",
+            "M5sWwTAwN",
+            "PfwNO-rWF",
+            "iEP7cdbOG",
+            "io9BXV8Bp",
+            "CPByAXSac",
+            "5EV7jXrHo",
+            "lv-DVcrw0",
+            "TxzRnwxSF"
+          ]
+        }
+      }
+    },
+    "mWV1Zc535": {
+      "id": "mWV1Zc535",
+      "type": "",
+      "prototype": "groups",
+      "name": "Table 2",
+      "misc": {},
+      "selected": false,
+      "properties": {},
+      "visible": true,
+      "x": 504.3333333333333,
+      "y": 1808.6666666666667,
+      "rotation": 0,
+      "elements": {
+        "layer-1": {
+          "items": ["-VOwJJ4a-", "769vSaGv2", "HUiHtStXN"]
+        }
+      }
+    },
+    "8IKx7zeV8": {
+      "id": "8IKx7zeV8",
+      "type": "",
+      "prototype": "groups",
+      "name": "Table 3",
+      "misc": {},
+      "selected": false,
+      "properties": {},
+      "visible": true,
+      "x": 182.25,
+      "y": 1618.75,
+      "rotation": 0,
+      "elements": {
+        "layer-1": {
+          "items": ["tIJhkOj5G", "rF_aZ1wsT", "VyVlarYL1", "01dioxi--"]
+        }
+      }
+    },
+    "GexQet8B7": {
+      "id": "GexQet8B7",
+      "type": "",
+      "prototype": "groups",
+      "name": "Table 4",
+      "misc": {},
+      "selected": false,
+      "properties": {},
+      "visible": true,
+      "x": 502.375,
+      "y": 1573.75,
+      "rotation": 0,
+      "elements": {
+        "layer-1": {
+          "items": [
+            "i3XcBzYUK",
+            "l0CqOWL-A",
+            "bqY8tqvwu",
+            "luBmZaMU1",
+            "rhDOA_6KJ",
+            "VqnEuCoiS",
+            "jqrEoHPGd",
+            "V7ra4PwBR"
+          ]
+        }
+      }
+    }
+  },
+  "width": 3000,
+  "height": 2000,
+  "meta": {},
+  "guides": {
+    "horizontal": {},
+    "vertical": {},
+    "circular": {}
+  }
+}
