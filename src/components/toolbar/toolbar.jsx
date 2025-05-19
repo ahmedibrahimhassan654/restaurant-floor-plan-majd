@@ -197,18 +197,22 @@ const Toolbar = (
 
   const isMountedRef = useRef(true); // Create a ref to track mount status
 
-  const urlParams = new URLSearchParams(window.location.search);
-  const restaurant = urlParams.get("restaurant");
+  // Comment out the URL parameter extraction
+  // const urlParams = new URLSearchParams(window.location.search);
+  // const restaurant = urlParams.get("restaurant");
+  
+  // Set restaurant ID statically to "4"
+  const restaurant = "4";
+  
   // const domain = urlParams.get("domain");
-  // const restaurant = "7"; // Here the restaurant_id is statically set to "4"
-
-  console.log("restaurantssss", restaurant);
+  console.log("restaurantssss (at component render):", restaurant);
 
   const axiosInstance = axios.create({
     baseURL: `${APIURL}/api/v1/restaurant/planner`,
   });
 
   const getPlanner = () => {
+    // The 'restaurant' variable from the component scope is used here
     axiosInstance
       .get(`/get?restaurant_id=${restaurant}`)
       .then((res) => {
@@ -245,22 +249,38 @@ const Toolbar = (
           if (err.response.status == 422) { // A 422 status indicates an unprocessable entity (e.g., validation error)
             setError("Enter Resturant ID"); // This sets the error message you are seeing
             setLoading(false);
+          } else {
+            // Handle other HTTP errors with a response
+            setError(`Failed to fetch planner data. Status: ${err.response.status}`);
+            setLoading(false);
           }
         } else {
           // Handle cases where err.response is undefined (e.g., network error)
-          setError("Failed to fetch planner data.");
+          setError("Failed to fetch planner data. Check network or API endpoint.");
           setLoading(false);
         }
       });
   };
 
   useEffect(() => {
-    isMountedRef.current = true; // Set to true when component mounts
-    getPlanner();
+    isMountedRef.current = true;
+    console.log("restaurantssss (inside useEffect):", restaurant); // Log value when useEffect runs
+
+    if (!restaurant) { // Check if restaurant ID is missing or invalid (null, undefined, empty string)
+      setError("Restaurant ID is missing in the URL. Please provide a ?restaurant=ID parameter.");
+      setLoading(false);
+      // No need to set isMountedRef.current = false here, cleanup function will handle it
+      return; // Stop execution if no restaurant ID
+    }
+
+    getPlanner(); // Call getPlanner only if restaurant ID is present
+
     return () => {
       isMountedRef.current = false; // Set to false when component unmounts
     };
-  }, [restaurant]); // Add restaurant as a dependency if getPlanner should re-run when it changes
+  }, [restaurant, projectActions, APIURL]); // Add dependencies used within useEffect and getPlanner
+                                          // projectActions is from context, APIURL is an import.
+                                          // Ensuring all stable dependencies are listed.
   // console.log("errrrrrrrror", error);
   return (
     <React.Fragment>

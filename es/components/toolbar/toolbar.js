@@ -261,10 +261,10 @@ var Toolbar = function Toolbar(_ref3, context) {
       error = _useState4[0],
       setError = _useState4[1];
 
-  // var urlParams = new URLSearchParams(window.location.search); // This was commented out
-  // var restaurant = urlParams.get("restaurant"); // This was commented out
-  var restaurant = "4"; // Here the restaurant_id is statically set to "4"
-  // const domain = urlParams.get("domain");
+  var urlParams = new URLSearchParams(window.location.search); // This was commented out
+  var restaurant = urlParams.get("restaurant"); // This was commented out
+  // var restaurant = "4"; // Here the restaurant_id is statically set to "4"
+  //const domain = urlParams.get("domain");
   console.log("restaurant", restaurant);
 
   var axiosInstance = _axios2.default.create({
